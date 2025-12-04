@@ -1,0 +1,82 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to right ,#01022de5,black) ;
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    height: 80%;
+    width: 1200px;
+    background-image:linear-gradient(to right ,#01022de5 30% ,#00000088 ),
+    url(avatar.webp);
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.container:hover {
+     background-image:linear-gradient(to right ,#01022de5 30% ,transparent),
+    url(avatar.webp);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+ul li {
+    display: inline-block;
+    padding: 0 30px ;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+ul li :hover {
+    text-decoration: underline;
+}
+.conter  {
+    color: white;
+    width: 40%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+    padding:  80px 10px;
+    gap: 30px;
+}
+.h2 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+    color: aliceblue;
+}
+input {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+input:hover {
+    background-color:#01022de5 ;
+    border-width: 3px;
+    border-color: white;
+    color: white;
+}
